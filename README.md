@@ -2,7 +2,7 @@
 
 ## Benchmark Demo
 
-Duplicating the [three.js](https://github.com/mrdoob/three.js) library 10 times and building a single bundle from scratch, without any caches. (A Reference by [esbuild]([esbuild/Makefile at main · evanw/esbuild (github.com)](https://github.com/evanw/esbuild/blob/main/Makefile)))
+Duplicating the [three.js](https://github.com/mrdoob/three.js) library 10 times and building a single bundle from scratch, without any caches. (A Reference by [esbuild](https://github.com/evanw/esbuild/blob/main/Makefile))
 
 ## Benchmark Results
 
