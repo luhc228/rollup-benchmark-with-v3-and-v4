@@ -20,6 +20,9 @@ THREE_ROLLUP_CONFIG += }
 require/rollup3/node_modules:
 	cd require/rollup3 && npm ci
 
+require/rollup4/node_modules:
+	cd require/rollup4 && npm ci
+
 bench-three-rollup3: | require/rollup3/node_modules bench/three
 	rm -fr require/rollup3/bench/three bench/three/rollup3
 	mkdir -p require/rollup3/bench/three bench/three/rollup3

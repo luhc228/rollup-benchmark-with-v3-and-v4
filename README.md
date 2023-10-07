@@ -13,10 +13,10 @@ My test environment:
 
 | Bundler  | Time  |
 | -------- | ----- |
-| Rollup 3 | 21.68 |
-| Rollup 4 | 22.77 |
+| Rollup 3 | 22.63 |
+| Rollup 4 | 24.25 |
 
-Rollup v3 is faster than v4.
+Sometime v3 is faster than v4, and sometime v4 is almost as fast as v3.
 
 ## How to run the benchmark?
 
@@ -25,3 +25,4 @@ Run the following command:
 ```
 $ make bench-three
 ```
+
